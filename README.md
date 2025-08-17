@@ -40,3 +40,4 @@ else:
 # Show the result
 print("Result:", result)
 ```
+👉 [Kodu buradan görebilirsiniz](my_first_project.py)
