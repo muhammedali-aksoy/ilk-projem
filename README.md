@@ -1,43 +1,39 @@
-# İlk Projem  
+# 🧮 Simple Calculator
 
-Bu benim Python ile yaptığım **ilk projem** 🎉  
-Program basit bir hesap makinesi gibi çalışıyor: toplama, çıkarma, çarpma ve bölme işlemleri yapabiliyor.  
+**Created:** 16 August 2025  
 
-## 📌 Nasıl Çalıştırılır?  
-1. Bu depoyu bilgisayarına ya da telefonuna indir.  
-2. Dosyanın içinde `my first project.py` adlı Python dosyasını aç.  
-3. Pydroid 3 (Android) veya Python 3 yüklü bir bilgisayarda çalıştır.  
-4. Sayıları gir ve sonucu gör!  
+**Description:** A beginner-friendly Python calculator that can perform basic arithmetic operations: addition, subtraction, multiplication, and division.
 
-## 🧑‍💻 Öğrendiklerim  
-- `print()` fonksiyonu ile ekrana yazı yazdırmayı  
-- `input()` ile kullanıcıdan veri almayı  
-- Temel matematik işlemlerini kodlamayı  
+## ✨ Features
 
-## 📅 Tarih  
-16.08.2025 – Benim yazılım dünyasına attığım ilk adım 🚀
-## 💻 Hesap Makinesi Kodu
+- ➕ Addition  
+- ➖ Subtraction  
+- ✖️ Multiplication  
+- ➗ Division  
+- 🐍 Simple Python project for beginners
+
+## 🚀 How to Use
+
+1. Run the Python file `Simple_Calculator.py`.  
+2. Enter two numbers when prompted.  
+3. Choose an operation (add, subtract, multiply, divide).  
+4. The program will display the result.
+
+## 💻 Code
+
 ```python
-# Get numbers from user
-number1 = float(input("Enter the first number: "))
-number2 = float(input("Enter the second number: "))
+num1 = float(input("Enter first number: "))
+num2 = float(input("Enter second number: "))
+operation = input("Choose operation (+, -, *, /): ")
 
-# Ask which operation to perform
-operation = input("Choose an operation (+, -, *, /): ")
-
-# Perform the operation
-if operation == "+":
-    result = number1 + number2
-elif operation == "-":
-    result = number1 - number2
-elif operation == "*":
-    result = number1 * number2
-elif operation == "/":
-    result = number1 / number2
+if operation == '+':
+    print("Result:", num1 + num2)
+elif operation == '-':
+    print("Result:", num1 - num2)
+elif operation == '*':
+    print("Result:", num1 * num2)
+elif operation == '/':
+    print("Result:", num1 / num2)
 else:
-    result = "Invalid operation!"
-
-# Show the result
-print("Result:", result)
-```
-👉 [Kodu buradan görebilirsiniz](my_first_project.py)
+    print("Invalid operation")
+👉 [You can see the code from here](my_first_project.py)
