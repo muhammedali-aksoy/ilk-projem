@@ -1,6 +1,6 @@
 # 🧮 Simple Calculator
 
-**Created:** 16 August 2025  
+**Created:** 16 August 2025,the first day I stepped into the software  
 
 **Description:** A beginner-friendly Python calculator that can perform basic arithmetic operations: addition, subtraction, multiplication, and division.
 
