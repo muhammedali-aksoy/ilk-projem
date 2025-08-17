@@ -14,7 +14,7 @@
 
 ## 🚀 How to Use
 
-1. Run the Python file `Simple_Calculator.py`.  
+1. Run the Python file `my_first_project.py`.  
 2. Enter two numbers when prompted.  
 3. Choose an operation (add, subtract, multiply, divide).  
 4. The program will display the result.
